@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://brp3bnb4bxu65"]
+
+[ext_resource type="Texture2D" uid="uid://mlcwlv3dojln" path="res://assets/sprites/platforms.png" id="1_nnbud"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tf0qs"]
+size = Vector2(32, 9)
+
+[node name="MudPlatform" type="AnimatableBody2D" unique_id=248519714]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1233604512]
+texture = ExtResource("1_nnbud")
+region_enabled = true
+region_rect = Rect2(16, 15, 32, 12)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1580487308]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_tf0qs")
+one_way_collision = true
