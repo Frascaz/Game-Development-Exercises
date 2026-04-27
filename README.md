@@ -31,11 +31,13 @@ Each project is contained within its own folder, containing the full Godot proje
 ### Installing
 
 1. Clone the repository to your local machine:
+```
    git clone https://github.com/Frascaz/Game-Development-Exercises.git
-
-2. Navigate into the directory:
+```
+3. Navigate into the directory:
+```
    cd Game-Development-Exercises
-
+```
 ### Executing program
 
 To run or edit any of these projects:
